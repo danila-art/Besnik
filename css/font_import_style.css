@@ -1,0 +1,98 @@
+/* Подключение всех шрифтов и создание классов для назнчаения стиля шрифта для тегов HTML */
+/* Шрифт Bai_Jamjuree*/
+@font-face {
+    font-family: BaiJamjuree-Medium-500, sans-serif;
+    src: url("../font/Bai_Jamjuree/BaiJamjuree-Medium-500.ttf");
+}
+
+@font-face {
+    font-family: BaiJamjuree-SemiBold-600, sans-serif;
+    src: url("../font/Bai_Jamjuree/BaiJamjuree-SemiBold-600.ttf");
+}
+
+@font-face {
+    font-family: BaiJamjuree-Bold-700, sans-serif;
+    src: url("../font/Bai_Jamjuree/BaiJamjuree-Bold-700.ttf");
+}
+
+/* Шрифт Inter */
+@font-face {
+    font-family: Inter-Medium-500, sans-serif;
+    src: url("../font/Inter/Inter-Medium-500.ttf");
+}
+
+@font-face {
+    font-family: Inter-Bold-700, sans-serif;
+    src: url("../font/Inter/Inter-Bold-700.ttf");
+}
+
+/* Шрифт Roboto */
+@font-face {
+    font-family: Roboto-Regular-400, sans-serif;
+    src: url("../font/Roboto/Roboto-Regular-400.ttf");
+}
+
+@font-face {
+    font-family: Roboto-Medium-500, sans-serif;
+    src: url("../font/Roboto/Roboto-Medium-500.ttf");
+}
+
+@font-face {
+    font-family: Roboto-Bold-700, sans-serif;
+    src: url("../font/Roboto/Roboto-Bold-700.ttf");
+}
+
+
+/* Cоздание классов для назнчаения стиля шрифта для тегов HTML */
+
+/* Классы с шрифтом Bai_Jamjuree */
+.bai_jamjuree__medium-500 {
+    font-family: BaiJamjuree-Medium-500;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bai_jamjuree__semiBold-600 {
+    font-family: BaiJamjuree-SemiBold-600;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.bai_jamjuree__bold-700 {
+    font-family: BaiJamjuree-Bold-700;
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* Классы с шрифтом Inter */
+.inter__Medium-500 {
+    font-family: Inter-Medium-500;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.inter__Bold-700 {
+    font-family: Inter-Bold-700;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+/* Классы с шрифтом Roboto */
+.roboto__regular-400 {
+    font-family: Roboto-Regular-400;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto__medium-500 {
+    font-family: Roboto-Medium-500;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto__bold-700 {
+    font-family: Roboto-Bold-700;
+    font-weight: 700;
+    font-style: normal;
+}
