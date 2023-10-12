@@ -4,6 +4,7 @@ body {
     outline: none;
     border: 0;
     overflow-x: hidden;
+    background-color: rgba(248, 252, 255, 1);
 }
 
 h1, h2, h3, h4, h5, span, p {
@@ -378,3 +379,135 @@ header {
     border-bottom: 1.4px solid rgba(169, 179, 171, 1);
 
 }
+
+.section-4 {
+    display: block;
+    position: relative;
+    width: 100vw;
+    height: auto;
+}
+
+.section-4__flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 85vw;
+    height: auto;
+    margin: 2% auto;
+}
+
+.section-4__flex-box-1 {
+    display: block;
+    background-color: rgba(207, 237, 255, 1);
+    margin-right: 5%;
+    width: 35vw;
+    height: 45vh;
+    margin-left: 10%;
+}
+
+.section-4__flex-box-1 img {
+    margin-left: -20%;
+}
+
+.section-4__flex-box-heading {
+    display: block;
+    font-size: 46px;
+}
+
+.section-4__flex-box-p {
+    color: rgba(114, 114, 114, 1);
+    font-size: 22px;
+    letter-spacing: 1%;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.section-4__text-container {
+    display: block;
+    margin-top: 2%;
+}
+
+.section-4__text-container-flex-box {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.section-4__text-container-box-img {
+    display: block;
+    width: 5vw;
+}
+
+.section-4__text-container-box-img img {
+    width: 40%;
+}
+
+.section-4__text-container-box-text {
+    display: block;
+}
+
+.section-4__text-container-box-text h3 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.section-4__text-container-box-text p {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(114, 114, 114, 1);
+    padding-top: 2%;
+}
+
+.section-5 {
+    display: block;
+    background-color: rgba(65, 179, 244, 1);
+    width: 100vw;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+.section-5__flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.section-5__flex-box-text {
+    display: block;
+    width: 60vw;
+    height: auto;
+}
+
+.section-5__text-flex {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.section-5__text-flex-box {
+    display: block;
+}
+
+.section-5__text-flex-box-1 {}
+
+.section-5__text-flex-box-2 {}
+
+.section-5__text-flex-box-3 {}
+
+.section-5__text-flex-box-4 {}
+
+.section-5__flex-box {}
